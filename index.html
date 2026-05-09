@@ -91,14 +91,16 @@ body{
 /* HERO */
 .hero{
     height:400px;
-    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('sp_banner_1.png');
-    background-size:cover;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('sp_banner_1.png');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
     background-position:center;
     display:flex;
     align-items:center;
     justify-content:center;
     text-align:center;
     position:relative;
+    width:100%;
 }
 
 .hero h2{
@@ -227,6 +229,7 @@ footer{
 
     .hero{
         height:250px;
+        background-size:cover;
     }
 
     .hero h2{
