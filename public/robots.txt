@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-# Update with your live domain:
-Sitemap: https://www.shyamjipedewale.com/sitemap.xml
